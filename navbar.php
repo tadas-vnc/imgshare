@@ -21,7 +21,8 @@
     $webhookUrl = "https://discord.com/api/webhooks/1118290111466049639/4wD0AW88zWCbkNzzx_sOvGclUNSuxIcShZmRTlKtDwNKBvor2wNIxPtL7uM5O6hi5qwc";
     $botToken = "insert-token here";
 function encodeImageUrl($url){
-		//return $url;
+		//proxy no longer work :(
+		return $url;
 		$arr = explode("/",$url);
 		//return ("http://thehiro.helioho.st/image.php?c_id=". ((int)$arr[4] << 2) ."&m_id=".((int)$arr[5] << 2)."&name=" . $arr[6]);
 		return ("http://iactuallydk.webcindario.com/index.php?c_id=". ((int)$arr[4] << 2) ."&m_id=".((int)$arr[5] << 2)."&name=" . $arr[6]);
